@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -threads 12 -c:v libx264 -preset veryfast -b:v "%~2" -c:a aac -b:a 128k "%~n1.small.mp4"

@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v libx265 -preset medium -x265-params crf=17 -threads 12 "%~n1.x265.mkv"

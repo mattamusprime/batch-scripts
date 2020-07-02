@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v libx264 -codec:a aac -b:a 128k -preset ultrafast -crf 28 -threads 12 "%~n1.x264.%2"

@@ -1,0 +1,1 @@
+lsfiles.py | omit.py "\.png|\.avi|\.db|\.jpg|\.nfo|\.txt|\.lnk|\.jpeg|\.mp4|\.png|\.rtf|\.dat|\.avi|\.db|\.mpg|\.jpg|\.nfo|\.txt|\.pls|\.ini|\.srt|\.torrent|\.mp4" | xbox-mpg.py

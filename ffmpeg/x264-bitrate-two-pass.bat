@@ -1,0 +1,2 @@
+ffmpeg -y -i "%~1" -threads 12 -c:v libx264 -preset veryfast -b:v "%~2" -pass 1 -c:a aac -b:a 128k -f mp4 NUL && \
+ffmpeg -i "%~1" -threads 12 -c:v libx264 -preset veryfast -b:v "%~2" -pass 2 -c:a aac -b:a 128k "%~n1.small.mp4"

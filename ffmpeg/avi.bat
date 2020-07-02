@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v libxvid -q:v 8 -q:a 8 "%~n1.xvid.avi"

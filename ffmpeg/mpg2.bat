@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v libx264 -preset medium -crf 28 -threads 12 "%~n1.x264.%2"

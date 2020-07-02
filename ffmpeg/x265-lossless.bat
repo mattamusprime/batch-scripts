@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v libx265 -preset ultrafast -x265-params lossless=1 -threads 12 "%~n1.x265.mkv"
